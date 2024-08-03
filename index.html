@@ -1,14 +1,1544 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>МАГІЯ НАВЧАННЯ</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <p class="start">СТАРТ 24 червня</p>
+        <div class="category-wrapper">
+          <p class="course-category">Поглиблений онлайн інтенсив</p>
+        </div>
+        <h1 class="header-title">МАГІЯ НАВЧАННЯ. ПОЧАТОК НОВОЇ ЕРИ</h1>
+        <p class="header-subtitle">
+          Як езотерику за 14 днів запустити свій міні курс і заробляти від
+          <span>$3000-$5000 на місяць?</span>
+        </p>
+        <p class="header-desc">
+          Дізнайтеся покрокову методологію успішних запусків!
+        </p>
+        <ul class="header-list list">
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/header/item-image-1x.png 1x,
+                  ./src/img/header/item-image-2x.png 2x
+                "
+                width="26"
+                height="26" />
+              <img
+                class="item-image"
+                src="./src/img/header/item-image-1x.png"
+                alt="emoji"
+                width="26"
+                height="26"
+            /></picture>
+            Без вигорянь на складних терапіях по 3-4 години
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/header/item-image-1x.png 1x,
+                  ./src/img/header/item-image-2x.png 2x
+                "
+                width="26"
+                height="26" />
+              <img
+                class="item-image"
+                src="./src/img/header/item-image-1x.png"
+                alt="emoji"
+                width="26"
+                height="26"
+            /></picture>
+            Результат навіть на мінімальному рекламному бюджеті
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/header/item-image-1x.png 1x,
+                  ./src/img/header/item-image-2x.png 2x
+                "
+                width="26"
+                height="26" />
+              <img
+                class="item-image"
+                src="./src/img/header/item-image-1x.png"
+                alt="emoji"
+                width="26"
+                height="26"
+            /></picture>
+            Інстаграм, рілси, підписники, команда – НЕ ПОТРІБНІ!
+          </li>
+        </ul>
+        <div class="header-button-container">
+          <a class="header-button link" data-scroll href="#register"
+            >приєднатися</a
+          >
+          <div class="header-sale-mark">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/header/header-mark-1x.png 1x,
+                  ./src/img/header/header-mark-2x.png 2x
+                "
+                width="60"
+                height="60" />
+              <img
+                class="sale-mark"
+                src="./src/img/header/header-mark-1x.png"
+                alt="sale"
+                width="60"
+                height="60"
+            /></picture>
+            <p class="sale-number">-93%</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="bonus-container">
+        <h3 class="bonus-title">
+          При оплаті онлайн інтенсиву
+          <span>зараз ви отримаєте знижку і 5 бонусних матеріалів:</span>
+        </h3>
+        <ul class="bonus-list list">
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-01-1x.png 1x,
+                  ./src/img/bonus/bonus-01-2x.png 2x
+                "
+                width="300"
+                height="300" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-01-1x.png"
+                alt="bonus"
+                width="300"
+                height="300"
+            /></picture>
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-02-1x.png 1x,
+                  ./src/img/bonus/bonus-02-2x.png 2x
+                "
+                width="300"
+                height="300" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-02-1x.png"
+                alt="bonus"
+                width="300"
+                height="300"
+            /></picture>
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-03-1x.png 1x,
+                  ./src/img/bonus/bonus-03-2x.png 2x
+                "
+                width="300"
+                height="300" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-03-1x.png"
+                alt="bonus"
+                width="300"
+                height="300"
+            /></picture>
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-04-1x.png 1x,
+                  ./src/img/bonus/bonus-04-2x.png 2x
+                "
+                width="300"
+                height="300" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-04-1x.png"
+                alt="bonus"
+                width="300"
+                height="300"
+            /></picture>
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-05-1x.png 1x,
+                  ./src/img/bonus/bonus-05-2x.png 2x
+                "
+                width="300"
+                height="300" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-05-1x.png"
+                alt="bonus"
+                width="300"
+                height="300"
+            /></picture>
+          </li>
+        </ul>
+        <div class="timer-wrapper">
+          <div id="countdown-one" class="countdown">
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="milliseconds countdown-time"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="for-whom section">
+        <div class="container">
+          <h2 class="for-whom-title">Цей інтенсив для:</h2>
+          <ul class="for-whom-list list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img//for-whom/for-whom-01-1x.png 1x,
+                    ./src/img//for-whom/for-whom-01-2x.png 2x
+                  "
+                  width="100%"
+                  height="195" />
+                <img
+                  class="item-image"
+                  src="./src/img//for-whom/for-whom-01-1x.png"
+                  alt="professions"
+                  width="100%"
+                  height="195"
+              /></picture>
+              <p class="item-text">Тарологів</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img//for-whom/for-whom-02-1x.png 1x,
+                    ./src/img//for-whom/for-whom-02-2x.png 2x
+                  "
+                  width="100%"
+                  height="195" />
+                <img
+                  class="item-image"
+                  src="./src/img//for-whom/for-whom-02-1x.png"
+                  alt="professions"
+                  width="100%"
+                  height="195"
+              /></picture>
+              <p class="item-text">Психологів</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img//for-whom/for-whom-03-1x.png 1x,
+                    ./src/img//for-whom/for-whom-03-2x.png 2x
+                  "
+                  width="100%"
+                  height="195" />
+                <img
+                  class="item-image"
+                  src="./src/img//for-whom/for-whom-03-1x.png"
+                  alt="professions"
+                  width="100%"
+                  height="195"
+              /></picture>
+              <p class="item-text">Хіромантів</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img//for-whom/for-whom-04-1x.png 1x,
+                    ./src/img//for-whom/for-whom-04-2x.png 2x
+                  "
+                  width="100%"
+                  height="195" />
+                <img
+                  class="item-image"
+                  src="./src/img//for-whom/for-whom-04-1x.png"
+                  alt="professions"
+                  width="100%"
+                  height="195"
+              /></picture>
+              <p class="item-text">Астрологів</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img//for-whom/for-whom-05-1x.png 1x,
+                    ./src/img//for-whom/for-whom-05-2x.png 2x
+                  "
+                  width="100%"
+                  height="195" />
+                <img
+                  class="item-image"
+                  src="./src/img//for-whom/for-whom-05-1x.png"
+                  alt="professions"
+                  width="100%"
+                  height="195"
+              /></picture>
+              <p class="item-text">Нумерологів</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img//for-whom/for-whom-06-1x.png 1x,
+                    ./src/img//for-whom/for-whom-06-2x.png 2x
+                  "
+                  width="100%"
+                  height="195" />
+                <img
+                  class="item-image"
+                  src="./src/img//for-whom/for-whom-06-1x.png"
+                  alt="professions"
+                  width="100%"
+                  height="195"
+              /></picture>
+              <p class="item-text">Гіпнотерапевтів</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img//for-whom/for-whom-07-1x.png 1x,
+                    ./src/img//for-whom/for-whom-07-2x.png 2x
+                  "
+                  width="100%"
+                  height="195" />
+                <img
+                  class="item-image"
+                  src="./src/img//for-whom/for-whom-07-1x.png"
+                  alt="professions"
+                  width="100%"
+                  height="195"
+              /></picture>
+              <p class="item-text">ДЛЯ ВСІХ ЕЗОТЕРИКІВ УКРАЇНИ</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="for-those section">
+        <div class="container">
+          <div class="those-title-container">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/for-those/title-image-1x.png 1x,
+                  ./src/img/for-those/title-image-2x.png 2x
+                "
+                width="48"
+                height="48" />
+              <img
+                class="title-image"
+                src="./src/img/for-those/title-image-1x.png"
+                alt="emoji"
+                width="48"
+                height="48"
+            /></picture>
+            <h2 class="those-title">для тих, хто</h2>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/for-those/title-image-1x.png 1x,
+                  ./src/img/for-those/title-image-2x.png 2x
+                "
+                width="48"
+                height="48" />
+              <img
+                class="title-image"
+                src="./src/img/for-those/title-image-1x.png"
+                alt="emoji"
+                width="48"
+                height="48"
+            /></picture>
+          </div>
+          <ul class="those-list list">
+            <li class="list-item">
+              Вважав що свій <br />
+              курс це складно
+            </li>
+            <li class="list-item">
+              Вигорів від постійної і монотонної праці з людьми
+            </li>
+            <li class="list-item">
+              Фізично не має можливості або бажання багато працювати
+            </li>
+            <li class="list-item">
+              Виріс з консультацій, та хоче швидко масштабуватись у курсах
+            </li>
+            <li class="list-item">
+              Чекав задоволення <br />
+              від діяльності, а отримав нове рабство
+            </li>
+            <li class="list-item">
+              Хоче за 1 місяць просто і легко <br />
+              зробити 3-5 тис €
+            </li>
+            <li class="list-item">
+              Кого не влаштовує дохід на <br />
+              терапіях/розкладах по 30 – 200 $
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-author section">
+        <div class="container">
+          <h2 class="about-author-title">познайомимось</h2>
+          <picture
+            ><source
+              srcset="
+                ./src/img/about-author/author-image-1x.png 1x,
+                ./src/img/about-author/author-image-2x.png 2x
+              "
+              width="100%"
+              height="345" />
+            <img
+              class="author-image"
+              src="./src/img/about-author/author-image-1x.png"
+              alt="emoji"
+              width="100%"
+              height="345"
+          /></picture>
+          <h3 class="author-name">Душин Сергій</h3>
+          <ul class="about-author-list list">
+            <li class="list-item">
+              <span>Власник 3 онлайн шкіл для езотериків</span> по запускам їх
+              послуг
+            </li>
+            <li class="list-item">
+              <span>13 років безперервного досвіду</span> у продажах та
+              маркетингу
+            </li>
+            <li class="list-item">
+              З легкістю навчаю експертів заробляти
+              <span>від 10 тис € на місяць</span>
+            </li>
+            <li class="list-item">
+              32 роки. Підприємець.
+              <span>Гіпнотерапевт-Нумеролог-Таролог.</span> Батько 2 діточок
+            </li>
+            <li class="list-item">
+              За 2 роки на курсах та наставництві
+              <span
+                >купив авто, побудував дім, та переїхав у 300 квадратів з 42,
+                запустив 3 онлайн школи,</span
+              >
+              та навчив більше 300 езотериків заробляти гроші на своєму
+              призначені! <span>Зможу навчити і Вас!</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-intensive section">
+        <div class="container">
+          <h2 class="about-intensive-title">Про інтенсив:</h2>
+          <p class="about-intensive-desc">
+            Онлайн інтенсив &#34;з персональним розбором&#34; для тих
+            езотериків,
+            <span
+              >які хочуть запустити свій затребуваний та прибутковий курс</span
+            >
+          </p>
+          <ul class="about-intensive-list list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/about-intensive/item-image-01-1x.png 1x,
+                    ./src/img/about-intensive/item-image-01-2x.png 2x
+                  "
+                  width="109"
+                  height="109" />
+                <img
+                  class="item-image"
+                  src="./src/img/about-intensive/item-image-01-1x.png"
+                  alt="memoji"
+                  width="109"
+                  height="109"
+              /></picture>
+              <span class="item-symbol">5</span>
+              <p class="item-text">основних відеоуроків</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/about-intensive/item-image-02-1x.png 1x,
+                    ./src/img/about-intensive/item-image-02-2x.png 2x
+                  "
+                  width="83"
+                  height="83" />
+                <img
+                  class="item-image"
+                  src="./src/img/about-intensive/item-image-02-1x.png"
+                  alt="memoji"
+                  width="83"
+                  height="83"
+              /></picture>
+              <span class="item-symbol">+</span>
+              <p class="item-text">PDF інструкції для прямого використання</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="bonus-container">
+        <h3 class="bonus-title">
+          При оплаті онлайн інтенсиву
+          <span>зараз ви отримаєте знижку і 5 бонусних матеріалів:</span>
+        </h3>
+        <ul class="bonus-list list">
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-01-1x.png 1x,
+                  ./src/img/bonus/bonus-01-2x.png 2x
+                "
+                width="300"
+                height="300" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-01-1x.png"
+                alt="bonus"
+                width="300"
+                height="300"
+            /></picture>
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-02-1x.png 1x,
+                  ./src/img/bonus/bonus-02-2x.png 2x
+                "
+                width="300"
+                height="300" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-02-1x.png"
+                alt="bonus"
+                width="300"
+                height="300"
+            /></picture>
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-03-1x.png 1x,
+                  ./src/img/bonus/bonus-03-2x.png 2x
+                "
+                width="300"
+                height="300" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-03-1x.png"
+                alt="bonus"
+                width="300"
+                height="300"
+            /></picture>
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-04-1x.png 1x,
+                  ./src/img/bonus/bonus-04-2x.png 2x
+                "
+                width="300"
+                height="300" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-04-1x.png"
+                alt="bonus"
+                width="300"
+                height="300"
+            /></picture>
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-05-1x.png 1x,
+                  ./src/img/bonus/bonus-05-2x.png 2x
+                "
+                width="300"
+                height="300" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-05-1x.png"
+                alt="bonus"
+                width="300"
+                height="300"
+            /></picture>
+          </li>
+        </ul>
+        <div class="timer-wrapper margin">
+          <div id="countdown-two" class="countdown">
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="milliseconds countdown-time"></span>
+            </div>
+          </div>
+        </div>
+        <div class="header-button-container">
+          <a class="header-button link" data-scroll href="#register"
+            >приєднатися</a
+          >
+          <div class="header-sale-mark">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/header/header-mark-1x.png 1x,
+                  ./src/img/header/header-mark-2x.png 2x
+                "
+                width="60"
+                height="60" />
+              <img
+                class="sale-mark"
+                src="./src/img/header/header-mark-1x.png"
+                alt="sale"
+                width="60"
+                height="60"
+            /></picture>
+            <p class="sale-number">-93%</p>
+          </div>
+        </div>
+      </div>
+      <section class="program section">
+        <div class="container">
+          <h2 class="program-title">Програма</h2>
+          <div class="faq-container">
+            <ul class="faq-list list">
+              <li class="faq-list-item">
+                <div class="faq-item-title-container">
+                  <div class="faq-list-item-container">
+                    <span class="item-lesson">Урок 1</span>
+                    <div class="faq-list-item-svg"></div>
+                  </div>
+                  <h3 class="faq-list-item-title">
+                    <span>Модель, яка приносить</span> вже в перший місяць
+                    мінімум 5 тис €
+                  </h3>
+                </div>
+                <div class="faq-answer-wrapper">
+                  <div class="faq-answer-item-wrapper">
+                    <p class="faq-list-item-answer">
+                      <span>Результат уроку:</span> Ви розумієте ідею і як
+                      працює «грошова машина»
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="faq-list-item">
+                <div class="faq-item-title-container">
+                  <div class="faq-list-item-container">
+                    <span class="item-lesson">Урок 2</span>
+                    <div class="faq-list-item-svg"></div>
+                  </div>
+                  <h3 class="faq-list-item-title">
+                    <span>Як придумати міні курс</span> для Вашої аудиторії який
+                    будуть купляти?
+                  </h3>
+                </div>
+                <div class="faq-answer-wrapper">
+                  <div class="faq-answer-item-wrapper">
+                    <p class="faq-list-item-answer">
+                      <span>Результат уроку:</span> Ви знаєте що «дати»
+                      аудиторії, щоб у Вас купували
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="faq-list-item">
+                <div class="faq-item-title-container">
+                  <div class="faq-list-item-container">
+                    <span class="item-lesson">Урок 3</span>
+                    <div class="faq-list-item-svg"></div>
+                  </div>
+                  <h3 class="faq-list-item-title">
+                    <span>Підготовка.</span> Складаємо програму та записуємо
+                    курс
+                  </h3>
+                </div>
+                <div class="faq-answer-wrapper">
+                  <div class="faq-answer-item-wrapper">
+                    <p class="faq-list-item-answer">
+                      <span>Результат уроку:</span> У Вас є повна програма
+                      курсу, ви готові до запису
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="faq-list-item">
+                <div class="faq-item-title-container">
+                  <div class="faq-list-item-container">
+                    <span class="item-lesson">Урок 4</span>
+                    <div class="faq-list-item-svg"></div>
+                  </div>
+                  <h3 class="faq-list-item-title">
+                    <span>Запуск.</span>
+                    Створення сторінки презентації
+                  </h3>
+                </div>
+                <div class="faq-answer-wrapper">
+                  <div class="faq-answer-item-wrapper">
+                    <p class="faq-list-item-answer">
+                      <span>Результат уроку:</span> У Вас є презентація курсу та
+                      запущена реклама
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="faq-list-item">
+                <div class="faq-item-title-container">
+                  <div class="faq-list-item-container">
+                    <span class="item-lesson">Урок 5</span>
+                    <div class="faq-list-item-svg"></div>
+                  </div>
+                  <h3 class="faq-list-item-title">
+                    <span>Продажі.</span>
+                    Модель продажів, як спілкуємося і закриваємо на чеки
+                  </h3>
+                </div>
+                <div class="faq-answer-wrapper">
+                  <div class="faq-answer-item-wrapper">
+                    <p class="faq-list-item-answer">
+                      <span>Результат уроку:</span> Тепер ви розумієте як
+                      «робити» гроші на курсі
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="buy-wrapper">
+            <h3 class="buy-title">встигніть Придбати зі знижкою 93%</h3>
+            <div class="buy-subtitle-box">
+              <p class="buy-subtitle">Та потрапити на особистий розбір</p>
+            </div>
+            <p class="price"><span>7029грн</span> 492 грн</p>
+            <div class="header-button-container">
+              <a class="header-button link" data-scroll href="#register"
+                >приєднатися</a
+              >
+              <div class="header-sale-mark">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/header/header-mark-1x.png 1x,
+                      ./src/img/header/header-mark-2x.png 2x
+                    "
+                    width="60"
+                    height="60" />
+                  <img
+                    class="sale-mark"
+                    src="./src/img/header/header-mark-1x.png"
+                    alt="sale"
+                    width="60"
+                    height="60"
+                /></picture>
+                <p class="sale-number">-93%</p>
+              </div>
+            </div>
+          </div>
+          <div class="garant-wrapper">
+            <p class="garant-text">
+              <span>100% гарантія повернення коштів.</span> <br />
+              Якщо вам щось не сподобається, я поверну вам гроші без будь яких
+              перешкод на протязі 14 днів після оплати
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="study-format section">
+        <div class="container">
+          <h2 class="study-format-title">Формат</h2>
+          <p class="study-format-subtitle">навчання</p>
+          <ul class="study-format-list list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/study-format/item-image-01-1x.png 1x,
+                    ./src/img/study-format/item-image-01-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="item-image"
+                  src="./src/img/study-format/item-image-01-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+              <span
+                >Навчання відбувається на спеціальній освітній платформі,</span
+              >
+              доступ на яку ви отримаєте через почтову адресу зразу ж після
+              оплати
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/study-format/item-image-02-1x.png 1x,
+                    ./src/img/study-format/item-image-02-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="item-image"
+                  src="./src/img/study-format/item-image-02-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+              <span>На платформі Ви одразу побачите всі уроки і бонуси,</span>
+              зможете одразу ж приступити до навчання
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/study-format/item-image-03-1x.png 1x,
+                    ./src/img/study-format/item-image-03-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="item-image"
+                  src="./src/img/study-format/item-image-03-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+              <span>Короткі відео-уроки до 20 хвилин</span> легко засвоюються, а
+              дублююча презентація дає змогу ще краще все зрозуміти, а також
+              користуватися паузами, щоб конспектувати. Все для Вас!
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/study-format/item-image-04-1x.png 1x,
+                    ./src/img/study-format/item-image-04-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="item-image"
+                  src="./src/img/study-format/item-image-04-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+              <span>Це повністю самостійне навчання,</span> без домашніх завдань
+              і зворотного зв&#39;язку, але воно настілки зрозуміле і просте що
+              складнощів не буде!
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="you-get section">
+        <div class="container">
+          <h2 class="you-get-title">Що ви отримаєте</h2>
+          <p class="you-get-subtitle">по закінченню онлайн-інтенсиву?</p>
+          <ul class="you-get-list list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-get/you-get-01-1x.png 1x,
+                    ./src/img/you-get/you-get-01-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-get/you-get-01-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+              Повну картину того як легко заробляти 3-5 тис € вже зараз на своїх
+              експертних знаннях!
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-get/you-get-02-1x.png 1x,
+                    ./src/img/you-get/you-get-02-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-get/you-get-02-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+              Напишете повну програму свого міні-курсу і закохаєтесь в свій
+              продукт, як я закохуюсь в кожну свою школу&#41;
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-get/you-get-03-1x.png 1x,
+                    ./src/img/you-get/you-get-03-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-get/you-get-03-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+              Ви легко запишете курс та підготуєте його до продажів
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-get/you-get-04-1x.png 1x,
+                    ./src/img/you-get/you-get-04-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-get/you-get-04-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+              В Вас з&#39;явиться сайт або інша презентаційна сторінка курсу, ви
+              запустите рекламу та отримаєте перші заявки
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-get/you-get-05-1x.png 1x,
+                    ./src/img/you-get/you-get-05-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-get/you-get-05-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+              Інформацію яка точно допоможе Вам зробити перші продажі, і мої
+              вітання з приводу завершення цього навчання 
+            </li>
+          </ul>
+          <div class="header-button-container margin">
+            <a class="header-button link" data-scroll href="#register"
+              >приєднатися</a
+            >
+            <div class="header-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/header-mark-1x.png 1x,
+                    ./src/img/header/header-mark-2x.png 2x
+                  "
+                  width="60"
+                  height="60" />
+                <img
+                  class="sale-mark"
+                  src="./src/img/header/header-mark-1x.png"
+                  alt="sale"
+                  width="60"
+                  height="60"
+              /></picture>
+              <p class="sale-number">-93%</p>
+            </div>
+          </div>
+          <p class="you-get-text">
+            <span>Я третій рік працюю виключно з езотериками,</span> я вивів вже
+            не одну людину на 10-20 і навіть 50 тис € доходу, чого не робить ні
+            одна зі шкіл які їм це обіцяють!
+          </p>
+          <div class="you-get-wrapper">
+            <div class="wrapper-box">
+              <p class="wrapper-text margin">
+                Міні-курс, це початок, але початок чогось дуже ВЕЛИКОГО! 
+              </p>
+              <p class="wrapper-text">
+                Приєднуйтесь і станьте частиною своєї історії успіху!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews section">
+        <div class="container">
+          <div class="reviews-container">
+            <h2 class="reviews-title">відгуки</h2>
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-01-1x.png 1x,
+                        ./src/img/reviews/review-01-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-01-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-02-1x.png 1x,
+                        ./src/img/reviews/review-02-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-02-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-03-1x.png 1x,
+                        ./src/img/reviews/review-03-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-03-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-04-1x.png 1x,
+                        ./src/img/reviews/review-04-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-04-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-05-1x.png 1x,
+                        ./src/img/reviews/review-05-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-05-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-06-1x.png 1x,
+                        ./src/img/reviews/review-06-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-06-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-07-1x.png 1x,
+                        ./src/img/reviews/review-07-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-07-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-08-1x.png 1x,
+                        ./src/img/reviews/review-08-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-08-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-09-1x.png 1x,
+                        ./src/img/reviews/review-09-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-09-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-10-1x.png 1x,
+                        ./src/img/reviews/review-10-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-10-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-11-1x.png 1x,
+                        ./src/img/reviews/review-11-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-11-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-12-1x.png 1x,
+                        ./src/img/reviews/review-12-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-12-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-13-1x.png 1x,
+                        ./src/img/reviews/review-13-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="235"
+                      height="303" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-13-1x.png"
+                      alt="review"
+                      width="235"
+                      height="303"
+                  /></picture>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="hand-move-container">
+              <img
+                src="./src/img/hand-move.svg"
+                width="25"
+                height="25"
+                class="hand-move-icon"
+                alt="hand-move"
+              />
+              <p class="hand-move-text">гортай щоб побачити більше</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="questions section">
+        <div class="container">
+          <h2 class="questions-title">відповіді</h2>
+          <p class="questions-subtitle">на запитання</p>
+          <div class="questions-container">
+            <ul class="questions-list list">
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Чому так дешево? У чому секрет?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Ніякого секрету немає - робота зі мною коштує інших
+                      грошей, але наразі в країні тяжкі часи, і я хочу дати
+                      можливість як можна більшій кількості езотериків допомогти
+                      людям зцілитися та вирости, чим спровокувати підняття
+                      економіки країни і самого стану своїх клієнтів - Вас! При
+                      цьому така ціна тільки у проміжку роботи таймера, тут і
+                      зараз &#34;якщо хочете&#34;. Я люблю людей котрі швидко
+                      приймають рішення. От і все
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Якщо я тільки початківець у езотериці, я можу запустити свій
+                    курс?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Скажу як є.. Золотих гір – обіцяти Вам не можу, але!! На
+                      простих «продуктах», такі як – медитації, мантри, прості
+                      расклади Таро, прості розрахунки матриці у нумерології і
+                      так далі і тому подібне можна заробляти якщо не 20-30 то 5
+                      тис eur на місяць можно робити ЛЕГКО!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Якщо в мене вже є навчання, але воно не продається!?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Відверто кажучи, якщо «машина» є, але вона не їде, то чи
+                      вона зламана, чи водій не вміє керувати, і так і так, Вам
+                      точно треба йти, завдяки інтенсиву, ви зможете знайти
+                      багато своїх помилок і справити їх!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">Яка гарантія?</p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Я гарантую кожен свій продукт на ринку! Це моє обличчя!
+                      Також є гарантія на повернення коштів у разі якщо Вам не
+                      сподобається послуга або якість отриманої інформації.
+                      (Повернення можливе протягом 14 днів з моменту сплати
+                      послуги)
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Скільки часу потрібно на інтенсив?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Інтенсив займе у Вас максимум 1.5-2 години Вашого часу,
+                      при цьому заощадить кілька років помилок і зливу грошей у
+                      рекламу, інвестиції з котрої не повертаються!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Я вже був/була на навчанні про створення своїх курсів! Всі
+                    розповідають про рілси, сторіс, запуски, прогріви і тд.. в
+                    мене немає на це часу і бажання!
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Я продаю без інстаграм і сторіс, витрачаю в день 3 години
+                      свого часу і заробляю нормальні гроші! Цей інтенсив покаже
+                      Вам, як без всіх цих «танців» і ге*орою заробляти класні
+                      гроші!
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="last-chance-container">
+            <div class="title-container">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/last-chance/title-image-1x.png 1x,
+                    ./src/img/last-chance/title-image-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="title-image"
+                  src="./src/img/last-chance/title-image-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+              <h2 class="last-chance-title">останній шанс</h2>
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/last-chance/title-image-1x.png 1x,
+                    ./src/img/last-chance/title-image-2x.png 2x
+                  "
+                  width="40"
+                  height="40" />
+                <img
+                  class="title-image"
+                  src="./src/img/last-chance/title-image-1x.png"
+                  alt="emoji"
+                  width="40"
+                  height="40"
+              /></picture>
+            </div>
+            <p class="price"><span>7029грн</span> 492 грн</p>
+            <div class="header-button-container last">
+              <a class="header-button link" data-scroll href="#register"
+                >приєднатися</a
+              >
+              <div class="header-sale-mark">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/header/header-mark-1x.png 1x,
+                      ./src/img/header/header-mark-2x.png 2x
+                    "
+                    width="68"
+                    height="68" />
+                  <img
+                    class="sale-mark"
+                    src="./src/img/header/header-mark-1x.png"
+                    alt="sale"
+                    width="68"
+                    height="68"
+                /></picture>
+                <p class="sale-number">-93%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section">
+      <div class="container">
+        <p class="footer-about-course">
+          КУРС ВІДЗНЯТО СОЛОВ'ЇНОЮ <br />
+          <span>Я працюю та плачу податки в Україні</span>
+        </p>
+        <div class="footer-deals">
+          <ul class="deals-list list">
+            <li class="list-item">
+              <a class="link" href="" target="_blank" rel="nofollow"
+                >Договір оферта</a
+              >
+            </li>
+            <li class="list-item">
+              <a class="link" href="" target="_blank" rel="nofollow"
+                >Політика конфіденційності</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-container">
+          <div class="mail-container">
+            <a
+              class="footer-insta link"
+              href="https://www.instagram.com/serg.dushin"
+              target="_blank"
+              rel="nofollow"
+            >
+              <img
+                class="insta-icon"
+                src="./src/img/insta-icon.svg"
+                alt="insta"
+                width="24"
+                height="24"
+              />
+              @serg.dushin</a
+            >
+          </div>
+          <div class="mail-container">
+            <a
+              class="footer-insta link"
+              href="mailto:dushinsergey.target@gmail.com"
+              target="_blank"
+              rel="nofollow"
+            >
+              <img
+                class="insta-icon"
+                src="./src/img/gmail-icon.svg"
+                alt="insta"
+                width="24"
+                height="24"
+              />
+              dushinsergey.target@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="fop-container">
+          <p class="fop-name">ФОП Душин С.В</p>
+        </div>
+        <a
+          class="disign-creator-link link"
+          href="https://www.instagram.com/lllcku"
+          target="_blank"
+          rel="nofollow"
+          ><div class="disign-creator">
+            <p class="create-by-text">Сайт розроблений</p>
+            <img
+              class="insta-icon"
+              src="./src/img/insta-icon.svg"
+              alt="insta"
+              width="14"
+              height="14"
+            />
+            <p class="create-by-text">@lllcku</p>
+          </div>
+        </a>
+      </div>
+    </footer>
+    <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/faq.js" type="module"></script>
+    <script src="./src/js/swiper.js" type="module"></script>
+    <script src="./src/js/questions.js" type="module"></script>
+  </body>
 </html>

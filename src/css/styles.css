@@ -85,6 +85,18 @@ img {
   margin: 0 auto;
 }
 
+@keyframes pulseScale {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
 /* header */
 
 .header {
@@ -253,8 +265,6 @@ img {
 
   max-width: 345px;
   margin: 0 auto;
-
-  animation: pulseScale 2000ms infinite;
 }
 
 .header-button {
@@ -281,6 +291,8 @@ img {
   position: absolute;
   top: -25px;
   right: -10px;
+
+  animation: pulseScale 1000ms infinite;
 }
 
 .sale-mark {

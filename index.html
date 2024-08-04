@@ -13,7 +13,9 @@
   <body>
     <header class="header">
       <div class="container">
-        <p class="start">СТАРТ 24 червня</p>
+        <p class="start">
+          СТАРТ <span id="dateElement"></span> <span id="monthElement"></span>
+        </p>
         <div class="category-wrapper">
           <p class="course-category">Поглиблений онлайн інтенсив</p>
         </div>
@@ -750,16 +752,16 @@
               </li>
             </ul>
           </div>
-          <div class="buy-wrapper">
+          <div class="buy-wrapper" id="register">
             <h3 class="buy-title">встигніть Придбати зі знижкою 93%</h3>
             <div class="buy-subtitle-box">
               <p class="buy-subtitle">Та потрапити на особистий розбір</p>
             </div>
             <p class="price"><span>7029грн</span> 492 грн</p>
             <div class="header-button-container">
-              <a class="header-button link" data-scroll href="#register"
-                >приєднатися</a
-              >
+              <button class="header-button" type="button" data-modal-open>
+                приєднатися
+              </button>
               <div class="header-sale-mark">
                 <picture
                   ><source
@@ -1032,14 +1034,14 @@
                         ./src/img/reviews/review-01-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-01-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1050,14 +1052,14 @@
                         ./src/img/reviews/review-02-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-02-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1068,14 +1070,14 @@
                         ./src/img/reviews/review-03-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-03-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1086,14 +1088,14 @@
                         ./src/img/reviews/review-04-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-04-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1104,14 +1106,14 @@
                         ./src/img/reviews/review-05-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-05-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1122,14 +1124,14 @@
                         ./src/img/reviews/review-06-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-06-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1140,14 +1142,14 @@
                         ./src/img/reviews/review-07-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-07-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1158,14 +1160,14 @@
                         ./src/img/reviews/review-08-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-08-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1176,14 +1178,14 @@
                         ./src/img/reviews/review-09-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-09-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1194,14 +1196,14 @@
                         ./src/img/reviews/review-10-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-10-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1212,14 +1214,14 @@
                         ./src/img/reviews/review-11-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-11-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1230,14 +1232,14 @@
                         ./src/img/reviews/review-12-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-12-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
                 <div class="swiper-slide">
@@ -1248,14 +1250,14 @@
                         ./src/img/reviews/review-13-2x.png 2x
                       "
                       media="(min-width: 320px)"
-                      width="235"
-                      height="303" />
+                      width="279"
+                      height="360" />
                     <img
                       class="review-image"
                       src="./src/img/reviews/review-13-1x.png"
                       alt="review"
-                      width="235"
-                      height="303"
+                      width="279"
+                      height="360"
                   /></picture>
                 </div>
               </div>
@@ -1467,12 +1469,20 @@
         <div class="footer-deals">
           <ul class="deals-list list">
             <li class="list-item">
-              <a class="link" href="" target="_blank" rel="nofollow"
+              <a
+                class="link"
+                href="https://docs.google.com/document/d/1qQEwKzzxkpuRSM9h-k2_g9qjsD-1Z10a1REXq2NQjwA/edit?usp=sharing"
+                target="_blank"
+                rel="nofollow"
                 >Договір оферта</a
               >
             </li>
             <li class="list-item">
-              <a class="link" href="" target="_blank" rel="nofollow"
+              <a
+                class="link"
+                href="https://docs.google.com/document/d/1wACQEtSJQtA-x7wGSxJ-eKmYNHLMr58_agFs-mmXnV8/edit?usp=sharing"
+                target="_blank"
+                rel="nofollow"
                 >Політика конфіденційності</a
               >
             </li>
@@ -1536,9 +1546,29 @@
         </a>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="40"
+            height="40"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1722272791000"></div>
+      </div>
+    </div>
     <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/js-modal.js" type="module"></script>
     <script src="./src/js/faq.js" type="module"></script>
     <script src="./src/js/swiper.js" type="module"></script>
     <script src="./src/js/questions.js" type="module"></script>
+    <script src="./src/js/scroll.js" type="module"></script>
+    <script src="./src/js/changeDate.js" type="module"></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1722272791000&uuid=b658eef9-47c9-44d9-9ad4-4e77a0a96d32&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>

@@ -367,7 +367,25 @@ img {
 }
 
 .bonus-list {
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  margin-bottom: 40px;
+}
+
+.bonus-list .list-item {
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 14px */
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .bonus-list .bonus-image {

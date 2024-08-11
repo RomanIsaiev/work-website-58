@@ -1474,14 +1474,14 @@ img {
   font-family: 'Futura PT';
   font-size: 15px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 110%; /* 16.5px */
 
   margin-bottom: 40px;
 }
 
 .footer-about-course span {
-  color: #fff;
+  color: yellow;
   font-family: 'Futura PT';
   font-size: 15px;
   font-style: normal;
